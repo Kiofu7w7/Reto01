@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url(https://images.hdqwalls.com/download/abstract-colors-pattern-4k-w1-3840x2160.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.tarjeta{
+    width: 420px;
+    background: transparent;
+    border: 2px solid rgba(255,255,255, 0.2);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(255,255,255, 0.2);
+    color: #fff;
+    border-radius: 10px;
+    padding: 30px 40px;
+
+}
+
+.tarjeta h1{
+    font-size: 36px;
+    text-align: center;
+
+}
+
+.tarjeta .divText{
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+}
+
+.divText input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    outline: none;
+    border: 2px solid rgba(255,255,255, 0.2);
+    border-radius: 40px;
+    font-size: 16px;
+    color: #fff;
+    padding: 20px 20px 20px 20px;
+}
+
+.tarjeta .btn{
+    width: 100%;
+    height: 45px;
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(255,255,255, 0.1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+    margin-top: 15px;
+}
+
+h2{
+    margin-top: 45px;
+    text-align: center;
+}

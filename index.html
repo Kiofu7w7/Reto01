@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de propinas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="tarjeta">
+        <h1>Calculadora de propinas</h1>
+        <div class="divText">
+            <p>Total de la cuenta:</p>
+            <input type="number" required id="totalCuentaInput">
+        </div>
+        <div class="divText">
+            <p>Porcentaje de propina:</p>
+            <input type="number" required id="porcentajeInput">
+        </div>
+        <button type="submit" class="btn" onclick="calcular()">Calcular</button>
+        <div class="divResumen">
+            <h2>Resumen</h2>
+            <div class="divText">
+                <p>Total de la cuenta:</p>
+                <input type="number"  placeholder="0" readonly required id="total">
+            </div>
+            <div class="divText">
+                <p>Propina:</p>
+                <input type="number"  placeholder="0" readonly required id="propinaFin">
+            </div>
+            <div class="divText">
+                <p>Total a pagar:</p>
+                <input type="number"  placeholder="0" readonly required id="totalFin">
+            </div>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
